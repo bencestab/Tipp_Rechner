@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
             android:inputType="numberDecimal"
-            android:textColorHint="#757575" />
+            android:textColorHint="#B3E5FC" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -60,8 +60,9 @@
         style="@style/Widget.TipTime.TextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/how_was_the_service"
         android:layout_marginTop="16dp"
+        android:text="@string/how_was_the_service"
+        android:textColor="#000000"
         app:layout_constraintStart_toStartOf="@id/cost_of_service"
         app:layout_constraintTop_toBottomOf="@id/cost_of_service" />
 
@@ -121,10 +122,11 @@
         android:id="@+id/calculate_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:text="@string/calculate"
+        android:textColor="#BBDEFB"
         app:backgroundTint="#3F51B5"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="@id/round_up_switch"
         app:layout_constraintTop_toBottomOf="@id/round_up_switch" />
 
